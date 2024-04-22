@@ -17,3 +17,18 @@ pip install subprocess
 ```bash
 python3 mac-changer.py
 ```
+
+#### If you want to check the interface name :
+
+```
+ifconfig
+```
+##### By using ifconfig you can check the network interfaces...
+
+### If you are working in linux environment :
+
+```
+nmcli
+```
+
+##### By using nmcli you can check the interfaces
