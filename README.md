@@ -1,9 +1,9 @@
 ### Mac Changer
 
 #### requirments:
-    - Python latest version
-    - python packages -> subprocess
-    - you can install this using 👇🏻
+    Python latest version
+    python packages -> subprocess
+    you can install this using 👇🏻
 ```
     pip install subprocess
 ```
