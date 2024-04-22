@@ -23,7 +23,7 @@ def change_mac_address(interface, new_mac):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    print("""
+    print(r"""
       __  __                  ____ _
      |  \/  | __ _  ___      / ___| |__   __ _ _ __   __ _  ___ _ __
      | |\/| |/ _` |/ __|____| |   | '_ \ / _` | '_ \ / _` |/ _ \ '__|
