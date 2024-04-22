@@ -1,17 +1,13 @@
 ### Mac Changer
 
-#### Requirments:
+#### Requirements:
     
-    * Python latest version
-    * python packages -> subprocess
+- Python latest version
+- Python packages: subprocess
 
-#### you can install this using 👇🏻
-    
-```
-    pip install subprocess
-```
-#### Run the program using the command below 👇🏻
+#### Installation:
 
-  ```
-    python3 mac-changer.py
-  ```
+You can install the required Python package using the following command:
+
+```bash
+pip install subprocess
