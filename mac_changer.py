@@ -30,10 +30,15 @@ if __name__ == "__main__":
      | |  | | (_| | (_|_____| |___| | | | (_| | | | | (_| |  __/ |
      |_|  |_|\__,_|\___|     \____|_| |_|\__,_|_| |_|\__, |\___|_|
                                                      |___/
-    """)
+        """)
     print("Author : Jevaa kharthik N")
     print("Contact : jevaakharthik@gmail.com")
-    interface = input("Enter the network interface name (e.g., en0): ")
-    new_mac = input("Enter the new MAC address: ")
-    change_mac_address(interface, new_mac)
+    while True:
+        interface = input("Enter the network interface name (e.g., en0): ")
+        if interface.lower() == "quit" or interface.lower() == "exit":
+            break
+        new_mac = input("Enter the new MAC address: ")
+        if new_mac.lower() == "quit" or new_mac.lower() == "exit":
+            break
+        change_mac_address(interface, new_mac)
 
