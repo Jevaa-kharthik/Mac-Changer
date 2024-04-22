@@ -31,4 +31,4 @@ ifconfig
 nmcli
 ```
 
-##### By using nmcli you can check the interfaces
+##### By using nmcli you can check the interfaces.....
